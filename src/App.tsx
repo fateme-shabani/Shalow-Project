@@ -2,8 +2,9 @@ import { useActionState } from "react";
 import "./App.css";
 import { useWindowSize } from "./hooks/useWindowSize";
 
- function App() {
+function App() {
   const { width, height } = useWindowSize();
+
 
   const formAction = (prev: number) => {
     return prev + 1;
