@@ -1,0 +1,14 @@
+{
+  "welcome": "Welcome",
+  "hello": "Hello {{name}}",
+  "login": "Login",
+  "logout": "Logout",
+  "language": "Language",
+  "en": "English",
+  "fa": "Persian",
+  "navBar": {
+    "homePage": "Home Page",
+    "profile": "Profile",
+    "address": "Address"
+  }
+}

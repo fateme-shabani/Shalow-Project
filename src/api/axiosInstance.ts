@@ -23,6 +23,7 @@ axiosInstance.interceptors.response.use(
     if (error.response?.status === 401) {
       //handle logout or refresh token
     }
+    
     return Promise.reject(error);
   },
 );
