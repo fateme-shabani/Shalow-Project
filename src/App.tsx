@@ -17,12 +17,6 @@ function App() {
   return (
     <>
       <Layout />
-      <form>
-        <p>{count}</p>
-        <button formAction={action}>+</button>
-        <p>Width: {width}</p>
-        <p>Height: {height}</p>
-      </form>
     </>
   );
 }

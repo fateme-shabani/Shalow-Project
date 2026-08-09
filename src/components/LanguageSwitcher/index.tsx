@@ -18,17 +18,19 @@ export function LanguageSwitcher() {
   };
 
   return (
-    <div className="w-16 h-16 bg-gray-50 rounded-lg ">
+    <div className="block w-14 h-14 bg-gray-50 rounded-lg text-xs p-2">
       {languages.map((language) => (
-        <button
-          key={language.id}
-          type="button"
-          onClick={() => handleLanguageChange(language.id)}
-          disabled={i18n.language === language.id}
-          className="z-20 "
-        >
-          {language.label}
-        </button>
+        <>
+          <button
+            key={language.id}
+            type="button"
+            onClick={() => handleLanguageChange(language.id)}
+            disabled={i18n.language === language.id}
+            className="z-20 cursor-pointer"
+          >
+            {language.label}
+          </button>
+        </>
       ))}
     </div>
   );
