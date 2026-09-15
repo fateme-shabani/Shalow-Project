@@ -1,22 +1,13 @@
-import { useActionState } from "react";
+import { RouterProvider } from "react-router";
 
+import router from "./routes/routes";
 import "./index.css";
 import "./App.css";
 
-import { useWindowSize } from "./hooks/useWindowSize";
-import { Layout } from "./components/layout";
-
 function App() {
-  const { width, height } = useWindowSize();
-
-  const formAction = (prev: number) => {
-    return prev + 1;
-  };
-  const [count, action] = useActionState(formAction, null);
-
   return (
     <>
-      <Layout />
+      <RouterProvider router={router} />
     </>
   );
 }

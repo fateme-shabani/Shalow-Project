@@ -1,7 +1,7 @@
-import { useTranslation } from "react-i18next";
-import { LanguageSwitcher } from "../../LanguageSwitcher";
 import { Link, useLocation } from "react-router";
-import { AppIcons } from "../../Icons/AppIcons";
+import { useTranslation } from "react-i18next";
+
+import { AppIcons } from "../Icons/AppIcons";
 
 export function Header() {
   const location = useLocation();
@@ -33,7 +33,6 @@ export function Header() {
             return (
               <span key={route}>
                 {" > "}
-
                 <Link to={route}>{routeLabels[path] ?? path}</Link>
               </span>
             );

@@ -1,7 +1,6 @@
 {
   "welcome": "Welcome",
   "hello": "Hello {{name}}",
-  "login": "Login",
   "logout": "Logout",
   "language": "Language",
   "en": "English",
@@ -10,5 +9,9 @@
     "homePage": "Home Page",
     "profile": "Profile",
     "address": "Address"
+  },
+  "login": {
+    "login": "Login",
+    "loginByPhone": "Login By Phone Number"
   }
 }
