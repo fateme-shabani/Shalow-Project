@@ -9,7 +9,7 @@ export function MainLayout() {
 
   return (
     <>
-      <div className="items-center justify-around bg-gray-50 h-screen">
+      <div className="items-center justify-around bg-red-50 h-screen">
         <Header />
           <nav className="flex mx-auto sm:h-full z-40">
                 <div className="flex items-center justify-center w-full h-full shadow-md sm:w-fit rounded-2xl">
