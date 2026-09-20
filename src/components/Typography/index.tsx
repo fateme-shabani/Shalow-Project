@@ -32,7 +32,7 @@ const alignClasses = {
 
 export function Typography({
   children,
-  size = "lg",
+  size = "md",
   weight = "regular",
   color = "primary",
   align = "right",

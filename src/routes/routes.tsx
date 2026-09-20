@@ -3,7 +3,7 @@ import { createBrowserRouter } from "react-router";
 import Dashboard from "../pages/Dashboard";
 import NotFound from "../pages/NotFound";
 import Profile from "../pages/Profile";
-import Login from "../pages/Login";
+import LoginPage from "../pages/Login";
 
 import { MainLayout } from "../layout/MainLayout";
 import { ProtectedRoute } from "./ProtectedRoute";
@@ -15,7 +15,7 @@ export const router = createBrowserRouter([
   },
   {
     path: "/login",
-    element: <Login />,
+    element: <LoginPage />,
   },
   {
     element: <ProtectedRoute />,
