@@ -7,3 +7,13 @@ export interface LoginFormProps {
 export interface LoginFormValues {
   phoneNumber: string;
 }
+
+export interface OtpFormValues {
+  otp: string;
+}
+
+export interface OtpFormProps {
+  phoneNumber: string;
+  onSubmit: (otp: string) => void;
+  onChangePhone: () => void;
+}

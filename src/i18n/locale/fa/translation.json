@@ -10,12 +10,15 @@
     "profile": "پروفایل",
     "address": "آدرس ها"
   },
-  "login":{
-      "login": "ورود",
-      "loginByPhone":"ورود با شماره همراه",
-      "otpCode":"کد ارسال شده به شماره موبایل X را وارد نمایید.",
-      "loginOrRegistration":"ورود یا ثبت نام"
-
-
+  "login": {
+    "login": "ورود",
+    "loginByPhone": "ورود با شماره همراه",
+    "otpCode": "کد ارسال شده به شماره موبایل X را وارد نمایید.",
+    "loginOrRegistration": "ورود یا ثبت نام"
+  },
+  "validation": {
+    "requiredPhoneNumber": "شماره موبایل الزامی است.",
+    "invalidPhoneNumber": "شماره موبایل معتبر نمی باشد.",
+    "phoneNumberPlaceHolder": "لطفاً شماره موبایل خود را وارد نمایید."
   }
 }
